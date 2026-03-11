@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiElectricity - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1d1d1f;
+            background: #fff;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .updated {
+            color: #86868b;
+            font-size: 0.9em;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+        p, li {
+            font-size: 1em;
+            color: #424245;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #d2d2d7;
+            font-size: 0.85em;
+            color: #86868b;
+        }
+        @media (prefers-color-scheme: dark) {
+            body { background: #1d1d1f; color: #f5f5f7; }
+            h2 { color: #f5f5f7; }
+            p, li { color: #a1a1a6; }
+            .footer { border-color: #424245; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: March 10, 2026</p>
+
+        <p>AntiElectricity ("we", "our", or "the app") is a macOS text editor with AI-assisted editing features. We are committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
+
+        <h2>1. Data We Collect</h2>
+
+        <p><strong>We do not collect personal information.</strong> AntiElectricity operates primarily as a local application on your Mac. Specifically:</p>
+
+        <ul>
+            <li><strong>Documents and files:</strong> All files you open and edit remain on your device. We never upload, transmit, or access your documents except when you explicitly use an AI feature on selected text.</li>
+            <li><strong>AI interactions:</strong> When you use AI features (commands, chat), the selected text is sent to the AI provider you have configured. This is the only time your content leaves your device.</li>
+            <li><strong>Subscription data:</strong> If you subscribe to the AI service (맛보기), Apple handles all payment processing through the App Store. We receive only a confirmation of your subscription status, not your payment details.</li>
+            <li><strong>Usage metrics:</strong> For subscribers, our server tracks daily token usage counts to enforce fair-use limits. This data is anonymized and associated only with a session token, not with your identity.</li>
+        </ul>
+
+        <h2>2. AI Provider Data</h2>
+
+        <p>AntiElectricity supports multiple AI providers. Depending on your configuration:</p>
+
+        <ul>
+            <li><strong>맛보기 (Managed):</strong> Selected text is sent through our proxy server to Anthropic's Claude API. We do not store or log the content of your requests or responses. Only token usage counts are recorded.</li>
+            <li><strong>Ollama (Local):</strong> All AI processing happens entirely on your device. No data leaves your computer.</li>
+            <li><strong>Bring Your Own Key (BYOK):</strong> If you use your own API keys (Anthropic, OpenAI, GitHub Copilot), text is sent directly from your device to the respective provider. Please refer to their privacy policies:
+                <ul>
+                    <li><a href="https://www.anthropic.com/privacy">Anthropic Privacy Policy</a></li>
+                    <li><a href="https://openai.com/privacy/">OpenAI Privacy Policy</a></li>
+                    <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>3. Data Storage</h2>
+
+        <ul>
+            <li><strong>API keys</strong> you enter are stored locally in your macOS user preferences (UserDefaults) and the system Keychain. They are never transmitted to our servers.</li>
+            <li><strong>Session tokens</strong> for the managed service are stored locally and used to authenticate requests to our proxy server.</li>
+            <li><strong>Application preferences</strong> (editor settings, themes, etc.) are stored locally on your device.</li>
+        </ul>
+
+        <h2>4. Data We Do NOT Collect</h2>
+
+        <ul>
+            <li>Personal identification information (name, email, address)</li>
+            <li>Device identifiers or fingerprints</li>
+            <li>Location data</li>
+            <li>Browsing or usage analytics</li>
+            <li>Contents of your documents (except when you explicitly use AI features)</li>
+            <li>Crash reports (unless you opt in through macOS system preferences)</li>
+        </ul>
+
+        <h2>5. Third-Party Services</h2>
+
+        <p>The app integrates with the following third-party services only when explicitly configured by you:</p>
+
+        <ul>
+            <li><strong>Apple App Store:</strong> Handles subscription purchases and management.</li>
+            <li><strong>Anthropic API:</strong> Powers the managed AI service (맛보기).</li>
+            <li><strong>Ollama:</strong> Local AI inference (no data leaves your device).</li>
+            <li><strong>OpenAI API, GitHub Copilot:</strong> Optional BYOK providers.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+
+        <p>AntiElectricity is not directed at children under 13. We do not knowingly collect information from children.</p>
+
+        <h2>7. Changes to This Policy</h2>
+
+        <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated revision date.</p>
+
+        <h2>8. Contact</h2>
+
+        <p>If you have questions about this privacy policy, please contact us at:</p>
+        <p><a href="mailto:antielectricity@proton.me">antielectricity@proton.me</a></p>
+
+        <div class="footer">
+            <p>&copy; 2026 AntiElectricity. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
