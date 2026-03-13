@@ -60,7 +60,7 @@ We may update this privacy policy from time to time. Changes will be posted on t
 
 If you have questions about this privacy policy, please contact us at:
 
-[antielectricity@proton.me](mailto:antielectricity@proton.me)
+[aumosita@gmail.com](mailto:aumosita@gmail.com)
 
 ---
 
